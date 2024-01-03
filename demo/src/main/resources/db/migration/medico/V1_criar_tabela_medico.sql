@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS medico (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    especialidade VARCHAR(255),
+    crm VARCHAR(10) UNIQUE
+);
